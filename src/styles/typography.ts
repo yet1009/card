@@ -25,6 +25,10 @@ export const typographyMap = {
     font-size: 14px;
     line-height: 1.34;
   `,
+  t7: css`
+    font-size: 13px;
+    line-height: 1.25;
+  `,
 }
 
 export type Typography = keyof typeof typographyMap
