@@ -3,8 +3,8 @@ import Text from '@shared/Text'
 import { css } from '@emotion/react'
 
 interface TopProps {
-  title: string
-  subTitle: string
+  title?: string
+  subTitle?: string
 }
 
 const Top = ({ title, subTitle }: TopProps) => {
