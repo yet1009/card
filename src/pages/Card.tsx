@@ -30,7 +30,7 @@ const CardPage = () => {
   const { name, corpName, promotion, tags, benefit } = data
 
   const subTitle =
-    promotion != null ? removeHtmlTag(promotion.title) : tags?.join(', ')
+    promotion != null ? removeHtmlTag(promotion.title) : tags.join(', ')
 
   return (
     <div>
@@ -56,9 +56,9 @@ const CardPage = () => {
               //   opacity: 1,
               //   translateX: 0,
               // }}
+              key={`k_${index}`}
             >
               <ListRow
-                key={`k_${index}`}
                 left={<IconCheck />}
                 contents={
                   <ListRow.ListRowTexts
