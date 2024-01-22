@@ -156,4 +156,9 @@ export default css`
     /* Normalize \`line-height\`. Cannot be changed from \`normal\` in Firefox 4+. */
     line-height: normal;
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
 `
